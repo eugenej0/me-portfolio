@@ -11,6 +11,10 @@ I designed and manufactured this tool which was intended to aid in assembly of a
 
 ## CNC manufacturing (Baja SAE team)
 
+CVT cam | Brake and steering brackets | Steering rack parts
+-- | -- | --
+![](images/cnc1.jpg) | ![](images/cnc2.jpg) | ![](images/cnc3.jpg)
+
 I manufactured these parts, and others, on a Tormach PCNC 770.
 
 ## Waving cat (Mechatronics Class)
