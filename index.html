@@ -5,9 +5,11 @@
 </head>
 <body>
     <h1>Eugene Jeong</h1>
-    <p>This is a collection of images of my mechanical engineering projects.</p>
+    <p>I am a mechanical engineering undergraduate at Cornell University. 
+        This is a collection of images of my engineering projects.</p>
 
-    <h2>Shear pin hub (Baja SAE team)</h2>
+    <h2>Shear pin hub (Cornell Baja SAE team)</h2>
+    <p>Objective: Measure the maximum torque through a driveshaft on a previous season's 2WD car.</p>
     <table>
         <tr>
             <th> Shear pin hub on driveshaft </th>
@@ -18,12 +20,19 @@
             <td> <img src="images/shearhub2.jpg" width=300> </td>
         </tr>
     </table>
-    <p>I designed, machined, and installed this assembly which tests the maximum torque through a 
-        driveshaft by destruction of a shear pin. Below is a CAD model which shows a cross sectional 
-        view of a pin resting in its bore.</p>
+    <p>I designed, machined, and installed this shear hub which determines the maximum driveshaft torque
+        by destruction of a shear pin. The full assembly consists of a split driveshaft joined by the shear hub, 
+        which is locked rotationally by a shear pin. If the torque transferred through this shaft ever exceeds 
+        the rated value of the pin, the pin will break, establishing a minimum bound for the maximum torque. Different 
+        pins can be placed at different distances from the axis of rotation to allow a range of torques to be tested. 
+        Below is a CAD model which shows a cross sectional view of a pin resting in its bore.</p>
     <img src="images/shearhub3.jpg" width=250 class="center-img">
+    <p>Result: I turned the shear hub on a lathe and machined the bores on a CNC mill, ensuring a close fit with the pins. 
+        I was able to test the assembly on the car until a pin setting did not break for the given driving conditions. 
+        I expect to do further testing with this system.</p>
 
-    <h2>Continuously variable transmission assembly tool (Baja SAE team)</h2>
+    <h2>Continuously variable transmission assembly tool (Cornell Baja SAE team)</h2>
+    <p>Objective: Create a tool to facilitate assembly of a CVT pulley</p>
     <table>
         <tr>
             <th> CVT placed in custom tool </th>
@@ -34,11 +43,15 @@
             <td> <img src="images/tool2.jpg" width=300> </td>
         </tr>
     </table>
-    <p>I designed and manufactured this tool which was intended to aid in assembly of a CVT pulley. 
-        The tool didn't quite work as planned, but the process of making it taught me valuable lessons 
-        in designing something to be sturdy, useful, and easy to make.</p>
+    <p>I designed and manufactured this tool using aluminum and steel tube stock, and a ratchet wrench. The 
+        key design feature is to use the ratchet to allow the user to lock and release a lever arm to compress a 
+        spring in the CVT pulley.</p>
+    <p>Result: The tool didn't quite work as planned, as the coarseness of the ratchet and geometry of the arm
+        prevented it from compressing the spring in the CVT. However, the process of designing and building the
+        tool taught me valuable lessons in designing something to be sturdy, useful, and manufacturable. </p>
     
-    <h2>CNC manufacturing (Baja SAE team)</h2>
+    <h2>CNC manufacturing (Cornell Baja SAE team)</h2>
+    <p>Objective: Produce parts needed by the team.</p>
     <table>
         <tr>
             <th> CVT cam </th>
@@ -51,9 +64,10 @@
             <td> <img src="images/cnc3.jpg" width=300> </td>
         </tr>
     </table>
-    <p>I manufactured these parts, and others, on a Tormach PCNC 770.</p>
+    <p>I manufactured these parts on a Tormach PCNC 770 using Fusion 360 CAM.</p>
 
     <h2> Waving cat (Mechatronics Class) </h2>
+    <p>Objective: Create a piece of kinetic art that responds to the environment</p>
     <table>
         <tr>
             <th> View of finished project </th>
@@ -64,21 +78,30 @@
             <td> <img src="images/cat2.jpg" width=300> </td>
         </tr>
     </table>
-    <p> I designed and built an interactive waving cat statue that responded to external input 
-        like patting on the head. </p>
-
-    <h2> Metal additive manufacturing surface analysis </h2>
+    <p> I designed and built an interactive waving cat statue that responds to patting on the head
+        and colored objects by changing its facial expression and waving speed. I used an Arduino to 
+        control a servo motor using pulse width modulation, and receive input from a color sensor.</p>
+    
+    <h2> Metal additive manufacturing surface analysis (NIST Research Intern)</h2>
+    <p>Objective: Analyze surface data for surfaces created by laser powder bed fusion and determine optimal segmentation method selection</p>
     <img src="images/surface1.jpg" width=300 class="center-img">
     <p>I wrote MATLAB code to identify particle boundaries on a surface created by laser powder bed 
         fusion. This image shows the result of one segmentation method compared to a reference 
-        classification result.</p>
+        classification result. I calculated values of precision and recall for five segmentation methods, 
+        which can be used to select and tune relevant parameters. I also implemented surface filtering and calculation of surface
+        parameters based on ASME and ISO standards, such as areal autocovariance and core height.</p>
+    <p>Result: I presented my work to my peers and NIST researchers in a colloquium at the end of my internship.</p>
 
     <h2> Die attach voiding analysis (Undergraduate Research) </h2>
+    <p>Objective: Assist graduate student with laboratory work and study die attach properties</p>
     <img src="images/thermal1.jpg" width=300 class="center-img">
-    <p>I used ANSYS Workbench to conduct parametric studies to determine the effect of void number 
-        and size on the thermal resistance and maximum temperature in a die attach layer.</p>
+    <p>I used ANSYS Workbench to conduct parameter sweeps to determine the effect of void number 
+        and size on the thermal resistance and maximum temperature in a die attach layer. I also 
+        compared the effect of using shell and solid elements, and conducted a mesh convergence analysis. 
+        In the lab, I learned how to use a Linseis XFA Xenonflash Apparatus to take thermal diffusivity measurements.</p>
 
     <h2> Pressure sensor (Micro Sensors Class) </h2>
+    <p>Objective: Design a sensor suitable for monitoring well bore pressure</p>
     <table>
         <tr>
             <th> COMSOL result </th>
@@ -89,8 +112,8 @@
             <td> <img src="images/sensor2.jpg" width=250> </td>
         </tr>
     </table>
-    <p> I designed a capacitive sensor from deformation equations, created a process flow and 
-        3D model using L-Edit and MEMS Pro, and studied the effect of the geometry on deformation 
-        using COMSOL.</p>
+    <p> I designed a capacitive sensor using membrane deformation and sensitivity equations, for the pressure condition
+        of a well bore environment. I created a process flow and 3D model using L-Edit and MEMS Pro, then used COMSOL
+        to conduct a parametric study to determine more accurate deflection behavior.</p>
 </body>
 </html>
