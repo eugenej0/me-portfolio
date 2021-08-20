@@ -1,4 +1,4 @@
-# Eugene Jeong's Projects
+# Eugene Jeong
 This is a collection of images of my mechanical engineering projects.
 
 ## Shear pin hub (Baja SAE team)
@@ -39,9 +39,13 @@ I designed and built an interactive waving cat statue that responded to external
 
 <img src="images/surface1.jpg" width=300>
 
+I wrote MATLAB code to identify particle boundaries on a surface created by laser powder bed fusion. This image shows the result of one segmentation method compared to a reference classification result.
+
 ## Die attach voiding analysis (Undergraduate Research)
 
 <img src="images/thermal1.jpg" width=300>
+
+I used ANSYS Workbench to conduct parametric studies to determine the effect of void number and size on the thermal resistance and maximum temperature in a die attach layer.
 
 ## Pressure sensor (Micro Sensors Class)
 
