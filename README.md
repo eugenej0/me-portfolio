@@ -18,7 +18,7 @@ This is a collection of images of my mechanical engineering projects.
 
 I designed, machined, and installed this assembly which tests the maximum torque through a driveshaft by destruction of a shear pin. Below is a CAD model which shows a cross sectional view of a pin resting in its bore.
 
-<img src="images/shearhub3.jpg" width=250 class="center">
+<img src="images/shearhub3.jpg" width=250 class="center-img">
 
 ## Continuously variable transmission assembly tool (Baja SAE team)
 
@@ -46,13 +46,13 @@ I designed and built an interactive waving cat statue that responded to external
 
 ## Metal additive manufacturing surface analysis
 
-<img src="images/surface1.jpg" width=300>
+<img src="images/surface1.jpg" width=300 class="center-img">
 
 I wrote MATLAB code to identify particle boundaries on a surface created by laser powder bed fusion. This image shows the result of one segmentation method compared to a reference classification result.
 
 ## Die attach voiding analysis (Undergraduate Research)
 
-<img src="images/thermal1.jpg" width=300>
+<img src="images/thermal1.jpg" width=300 class="center-img">
 
 I used ANSYS Workbench to conduct parametric studies to determine the effect of void number and size on the thermal resistance and maximum temperature in a die attach layer.
 
