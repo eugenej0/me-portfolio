@@ -1,5 +1,18 @@
+h1{
+  font-family: Verdana, sans-serif;
+  border-bottom: 1px solid black;
+}
+h2{
+  font-family: Verdana, sans-serif;
+}
+p{
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  width: 50%;
+}
 table {
   margin: 0 auto;
+  font-family: Verdana, sans-serif;
 }
 .center-img {
   margin-left: auto;
