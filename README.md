@@ -1,7 +1,7 @@
-<link href="mystyle.css" rel="stylesheet">
-
 # Eugene Jeong
 This is a collection of images of my mechanical engineering projects.
+
+<link href="mystyle.css" rel="stylesheet">
 
 ## Shear pin hub (Baja SAE team)
 
