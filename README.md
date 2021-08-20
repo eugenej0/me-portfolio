@@ -1,3 +1,5 @@
+<link href="mystyle.css" rel="stylesheet">
+
 # Eugene Jeong
 This is a collection of images of my mechanical engineering projects.
 
@@ -9,7 +11,7 @@ Shear pin hub on driveshaft | Installed on car
 
 I designed, machined, and installed this assembly which tests the maximum torque through a driveshaft by destruction of a shear pin. Below is a CAD model which shows a cross sectional view of a pin resting in its bore.
 
-<img src="images/shearhub3.jpg" width=250>
+<img src="images/shearhub3.jpg" width=250 class="center">
 
 ## Continuously variable transmission assembly tool (Baja SAE team)
 
