@@ -5,9 +5,16 @@ This is a collection of images of my mechanical engineering projects.
 
 ## Shear pin hub (Baja SAE team)
 
-Shear pin hub on driveshaft | Installed on car
--- | --
-<img src="images/shearhub1.jpg" width=250> | <img src="images/shearhub2.jpg" width=300>
+<table class="center">
+  <tr>
+    <th> Shear pin hub on driveshaft </th>
+    <th> Installed on car </th>
+  </tr>
+  <tr>
+    <th> <img src="images/shearhub1.jpg" width=250> </th>
+    <th> <img src="images/shearhub2.jpg" width=300> </th>
+  </tr>
+</table>
 
 I designed, machined, and installed this assembly which tests the maximum torque through a driveshaft by destruction of a shear pin. Below is a CAD model which shows a cross sectional view of a pin resting in its bore.
 
